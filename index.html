@@ -3,109 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kafrul Mart - Grocery & Essentials</title>
+    <title>Electronics & Appliances - Kafrul Mart</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; }
         header { background-color: #008080; color: #fff; padding: 1.5rem; text-align: center; }
         nav { background: #333; color: #fff; padding: 0.5rem; text-align: center; }
         nav a { color: #fff; margin: 0 1rem; text-decoration: none; }
         nav a:hover { color: #008080; }
-        
-        .search-bar { text-align: center; padding: 1rem; background: #fff; }
-        .search-bar input { padding: 0.75rem; width: 50%; border: 1px solid #ddd; border-radius: 4px; }
-        
-        .filters { text-align: center; padding: 0.5rem; background: #fff; }
-        .filters button { background-color: #ddd; border: none; padding: 0.5rem 1rem; margin: 0.25rem; border-radius: 4px; cursor: pointer; }
-        .filters button:hover, .filters button.active { background-color: #008080; color: #fff; }
-
         .promo-banner { background-color: #ffcc00; color: #333; padding: 1rem; text-align: center; font-size: 1.2rem; font-weight: bold; margin: 1rem 0; }
-        
         .container { padding: 2rem; max-width: 1200px; margin: auto; }
         .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }
         .product-card { background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; transition: transform 0.2s; }
         .product-card:hover { transform: translateY(-5px); }
-        
         .product-card img { max-width: 100%; height: 150px; object-fit: cover; border-radius: 4px; }
         .product-card h3 { margin: 1rem 0 0.5rem; }
         .product-card .price { font-size: 1.2rem; color: #008080; margin-bottom: 0.5rem; }
-        .product-card .original-price { font-size: 1rem; color: #888; text-decoration: line-through; margin-bottom: 0.5rem; }
         .delivery-info { font-size: 0.85rem; color: #555; font-weight: bold; }
-        
         button.add-btn { background-color: #008080; color: #fff; padding: 0.5rem 1rem; border: none; border-radius: 4px; cursor: pointer; margin-top: 1rem; }
         button.add-btn:hover { background-color: #005a5a; }
-
         footer { background-color: #333; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Kafrul Mart - Grocery & Essentials</h1>
-        <p>Your daily needs delivered at your doorstep.</p>
+        <h1>Kafrul Mart</h1>
+        <p>Your Electronics & Appliances Destination</p>
     </header>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Products</a>
-        <a href="#">Cart</a>
-        <a href="#">Contact</a>
+        <a href="index.html">Home</a>
     </nav>
-    <div class="search-bar">
-        <input type="text" placeholder="Search for products...">
-    </div>
-    <div class="filters">
-        <button class="active">All</button>
-        <button>Fruits & Veg</button>
-        <button>Dairy</button>
-        <button>Bakery</button>
-        <button>Pantry</button>
-    </div>
     <div class="promo-banner">
-        🔥 Special Offer: Get 10% off on all orders above ৳ 1000! 🔥
+        🔥 Exclusive Deals on Electronics! 🔥
     </div>
     <div class="container">
-        <h2>Our Products</h2>
+        <h2>Electronics & Appliances</h2>
         <div class="product-grid">
+            <!-- 20 Product Items -->
             <div class="product-card">
-                <img src="https://via.placeholder.com/150" alt="Apples">
-                <h3>Fresh Apples</h3>
-                <p class="original-price">৳ 300 / kg</p>
-                <p class="price">৳ 280 / kg</p>
+                <img src="https://via.placeholder.com/150" alt="LED Bulb">
+                <h3>LED Bulb (9W)</h3>
+                <p class="price">৳ 120</p>
                 <div class="delivery-info">Cash on Delivery Available</div>
                 <button class="add-btn">Add to Cart</button>
             </div>
             <div class="product-card">
-                <img src="https://via.placeholder.com/150" alt="Milk">
-                <h3>Organic Milk</h3>
-                <p class="original-price">৳ 100 / liter</p>
-                <p class="price">৳ 90 / liter</p>
+                <img src="https://via.placeholder.com/150" alt="Extension Cord">
+                <h3>Extension Cord (3m)</h3>
+                <p class="price">৳ 350</p>
+                <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Electric Kettle">
+                <h3>Electric Kettle (1.5L)</h3>
+                <p class="price">৳ 1200</p>
                 <div class="delivery-info">Cash on Delivery Available</div>
                 <button class="add-btn">Add to Cart</button>
             </div>
             <div class="product-card">
-                <img src="https://via.placeholder.com/150" alt="Bread">
-                <h3>Whole Wheat Bread</h3>
-                <p class="price">৳ 70</p>
-                <div class="delivery-info">Cash on Delivery Available</div>
+                <img src="https://via.placeholder.com/150" alt="Microwave Oven">
+                <h3>Microwave Oven</h3>
+                <p class="price">৳ 8500</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
                 <button class="add-btn">Add to Cart</button>
             </div>
             <div class="product-card">
-                <img src="https://via.placeholder.com/150" alt="Potatoes">
-                <h3>Potatoes</h3>
-                <p class="price">৳ 50 / kg</p>
-                <div class="delivery-info">Cash on Delivery Available</div>
+                <img src="https://via.placeholder.com/150" alt="Rice Cooker">
+                <h3>Rice Cooker (1.8L)</h3>
+                <p class="price">৳ 2500</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
                 <button class="add-btn">Add to Cart</button>
             </div>
             <div class="product-card">
-                <img src="https://via.placeholder.com/150" alt="Onions">
-                <h3>Onions</h3>
-                <p class="price">৳ 70 / kg</p>
-                <div class="delivery-info">Cash on Delivery Available</div>
+                <img src="https://via.placeholder.com/150" alt="Blender">
+                <h3>Blender (3-in-1)</h3>
+                <p class="price">৳ 3200</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
                 <button class="add-btn">Add to Cart</button>
             </div>
             <div class="product-card">
-                <img src="https://via.placeholder.com/150" alt="Cooking Oil">
-                <h3>Cooking Oil</h3>
-                <p class="price">৳ 180 / liter</p>
-                <div class="delivery-info">Cash on Delivery Available</div>
+                <img src="https://via.placeholder.com/150" alt="Electric Iron">
+                <h3>Electric Iron</h3>
+                <p class="price">৳ 1500</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Hair Dryer">
+                <h3>Hair Dryer</h3>
+                <p class="price">৳ 1800</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Vacuum Cleaner">
+                <h3>Vacuum Cleaner</h3>
+                <p class="price">৳ 6500</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Portable Fan">
+                <h3>Portable Fan</h3>
+                <p class="price">৳ 800</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Desk Lamp">
+                <h3>LED Desk Lamp</h3>
+                <p class="price">৳ 900</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Smart Watch">
+                <h3>Smart Watch</h3>
+                <p class="price">৳ 4500</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Power Bank">
+                <h3>Power Bank (10000mAh)</h3>
+                <p class="price">৳ 1200</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Headphones">
+                <h3>Wireless Headphones</h3>
+                <p class="price">৳ 2800</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Speaker">
+                <h3>Bluetooth Speaker</h3>
+                <p class="price">৳ 1500</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Extension Box">
+                <h3>Extension Box (Multi)</h3>
+                <p class="price">৳ 450</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Voltage Stabilizer">
+                <h3>Voltage Stabilizer</h3>
+                <p class="price">৳ 3500</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Air Cooler">
+                <h3>Air Cooler</h3>
+                <p class="price">৳ 9500</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Water Heater">
+                <h3>Water Heater (Geyser)</h3>
+                <p class="price">৳ 7500</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Bread Toaster">
+                <h3>Bread Toaster</h3>
+                <p class="price">৳ 2200</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
                 <button class="add-btn">Add to Cart</button>
             </div>
         </div>
