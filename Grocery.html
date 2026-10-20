@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries - Kafrul Mart</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; }
+        header { background-color: #008080; color: #fff; padding: 1.5rem; text-align: center; }
+        nav { background: #333; color: #fff; padding: 0.5rem; text-align: center; }
+        nav a { color: #fff; margin: 0 1rem; text-decoration: none; }
+        nav a:hover { color: #008080; }
+        .promo-banner { background-color: #ffcc00; color: #333; padding: 1rem; text-align: center; font-size: 1.2rem; font-weight: bold; margin: 1rem 0; }
+        .container { padding: 2rem; max-width: 1200px; margin: auto; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }
+        .product-card { background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; transition: transform 0.2s; }
+        .product-card:hover { transform: translateY(-5px); }
+        .product-card img { max-width: 100%; height: 150px; object-fit: cover; border-radius: 4px; }
+        .product-card h3 { margin: 1rem 0 0.5rem; }
+        .product-card .price { font-size: 1.2rem; color: #008080; margin-bottom: 0.5rem; }
+        .product-card .original-price { font-size: 1rem; color: #888; text-decoration: line-through; margin-bottom: 0.5rem; }
+        .delivery-info { font-size: 0.85rem; color: #555; font-weight: bold; }
+        button.add-btn { background-color: #008080; color: #fff; padding: 0.5rem 1rem; border: none; border-radius: 4px; cursor: pointer; margin-top: 1rem; }
+        button.add-btn:hover { background-color: #005a5a; }
+        footer { background-color: #333; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kafrul Mart</h1>
+        <p>Your Fresh Grocery Destination</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    <div class="promo-banner">
+        🔥 Fresh Groceries Delivered to You! 🔥
+    </div>
+    <div class="container">
+        <h2>Groceries & Essentials</h2>
+        <div class="product-grid">
+            <!-- 30 Grocery Items -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Apples">
+                <h3>Fresh Apples (1kg)</h3>
+                 <p class="original-price">৳ 300</p>
+                <p class="price">৳ 280</p>
+                <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Milk">
+                <h3>Organic Milk (1L)</h3>
+                 <p class="original-price">৳ 100</p>
+                <p class="price">৳ 90</p>
+                <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Bread">
+                <h3>Whole Wheat Bread</h3>
+                <p class="price">৳ 70</p>
+                <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Potatoes">
+                <h3>Potatoes (1kg)</h3>
+                <p class="price">৳ 50</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Onions">
+                <h3>Onions (1kg)</h3>
+                <p class="price">৳ 70</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Cooking Oil">
+                <h3>Cooking Oil (1L)</h3>
+                <p class="price">৳ 180</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Rice">
+                <h3>Basmati Rice (5kg)</h3>
+                <p class="price">৳ 350</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Lentils">
+                <h3>Red Lentils (1kg)</h3>
+                <p class="price">৳ 130</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Sugar">
+                <h3>Sugar (1kg)</h3>
+                <p class="price">৳ 110</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Salt">
+                <h3>Salt (1kg)</h3>
+                <p class="price">৳ 40</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Eggs">
+                <h3>Eggs (Dozen)</h3>
+                <p class="price">৳ 150</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Chicken">
+                <h3>Chicken Breast (1kg)</h3>
+                <p class="price">৳ 220</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Beef">
+                <h3>Beef (1kg)</h3>
+                <p class="price">৳ 750</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Fish">
+                <h3>Hilsa Fish (1kg)</h3>
+                <p class="price">৳ 400</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Tomatoes">
+                <h3>Tomatoes (1kg)</h3>
+                <p class="price">৳ 50</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Carrots">
+                <h3>Carrots (1kg)</h3>
+                <p class="price">৳ 60</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Garlic">
+                <h3>Garlic (1kg)</h3>
+                <p class="price">৳ 200</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Chilies">
+                <h3>Green Chilies (250g)</h3>
+                <p class="price">৳ 80</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Tea">
+                <h3>Black Tea (500g)</h3>
+                <p class="price">৳ 250</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+             <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Coffee">
+                <h3>Instant Coffee (100g)</h3>
+                <p class="price">৳ 300</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Bananas">
+                <h3>Bananas (Dozen)</h3>
+                <p class="price">৳ 120</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Oranges">
+                <h3>Oranges (1kg)</h3>
+                <p class="price">৳ 200</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Cucumber">
+                <h3>Cucumber (1kg)</h3>
+                <p class="price">৳ 40</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Spinach">
+                <h3>Spinach (Bunch)</h3>
+                <p class="price">৳ 20</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Cauliflower">
+                <h3>Cauliflower (Piece)</h3>
+                <p class="price">৳ 50</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Cabbage">
+                <h3>Cabbage (Piece)</h3>
+                <p class="price">৳ 40</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Butter">
+                <h3>Butter (200g)</h3>
+                <p class="price">৳ 180</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Cheese">
+                <h3>Cheese (200g)</h3>
+                <p class="price">৳ 220</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Honey">
+                <h3>Honey (500g)</h3>
+                <p class="price">৳ 450</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Oats">
+                <h3>Oats (500g)</h3>
+                <p class="price">৳ 150</p>
+                 <div class="delivery-info">Cash on Delivery Available</div>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 Kafrul Mart. All rights reserved.</p>
+    </footer>
+</body>
+</html>
